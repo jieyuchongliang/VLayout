@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+>
+
+    <Button
+            android:id="@+id/linearlayouthelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LinearLayoutHelper"
+            android:textAllCaps="false"
+            android:onClick="onClick"/>
+
+    <Button
+            android:id="@+id/gridlayouthelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GridLayoutHelper"
+            android:textAllCaps="false"
+            android:onClick="onClick"/>
+    <Button
+            android:id="@+id/staggeredgridlayouthelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StaggeredGridLayoutHelper"
+            android:textAllCaps="false"
+            android:onClick="onClick"/>
+    <Button
+            android:id="@+id/fixlayouthelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FixLayoutHelper"
+            android:textAllCaps="false"
+            android:onClick="onClick"/>
+    <Button
+            android:id="@+id/scrollfixlayouthelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ScrollFixLayoutHelper"
+            android:textAllCaps="false"
+            android:onClick="onClick"/>
+    <Button
+            android:id="@+id/columnlayouthelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ColumnLayoutHelper"
+            android:textAllCaps="false"
+            android:onClick="onClick"/>
+    <Button
+            android:id="@+id/singlelayouthelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SingleLayoutHelper"
+            android:textAllCaps="false"
+            android:onClick="onClick"/>
+    <Button
+            android:id="@+id/oneplusnlayouthelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OnePlusNLayoutHelper"
+            android:textAllCaps="false"
+            android:onClick="onClick"/>
+    <Button
+            android:id="@+id/floatlayouthelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FloatLayoutHelper"
+            android:textAllCaps="false"
+            android:onClick="onClick"/>
+
+    <Button
+            android:id="@+id/stickylayouthelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StickyLayoutHelper"
+            android:textAllCaps="false"
+            android:onClick="onClick"/>
+</LinearLayout>
